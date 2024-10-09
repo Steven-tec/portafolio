@@ -1,0 +1,65 @@
+html {
+    font-size: 16px;
+
+}
+/*voy a usar mediasquery para hacer adaptable la letra a un dispostivo diferente*/
+@media screen and (max-width:400px) {
+    html{
+        font-size: 3px;
+
+    }
+}
+html, body{
+    height: 100%;
+
+}
+
+body{
+    background: #050503 ;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.882;
+    color: white;
+    margin: 0;
+    padding: 12px;
+
+}
+
+/*estilos a los links*/
+
+a{
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active{
+    color: #000000;
+}
+
+a:hover,
+a:active´{
+    outline: 0;
+}
+
+/*tipografia*/
+h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5 {
+    font-family: "Frank Ruh1 libre",serif;
+    font-weight: 500;
+    font-style: normal;
+    color: blue;
+}
+h1, .h1 , h2, .h2 , h3 , .h3 , h4 , .h4{
+    margin-top: 6rem;
+    margin-bottom: 16rem;
+}
+
+@media screen and (max-width: 600px) {
+    h1, .h1 , h2, .h2 , h3 , .h3 , h4 , .h4{
+        margin-top: 6rem;
+    }
+    
+}
